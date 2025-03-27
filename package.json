@@ -1,7 +1,7 @@
 {
-  "name": "jaksel-language-support",
-  "displayName": "Jaksel Language Support",
-  "description": "Syntax highlighter, code snippets, code formatter for Jaksel Language",
+  "name": "kalteng-language-support",
+  "displayName": "kalteng Language Support",
+  "description": "Syntax highlighter, code snippets, code formatter for kalteng Language",
   "publisher": "ngupuk",
   "version": "0.0.3",
   "icon": "icon/logo.png",
@@ -10,39 +10,39 @@
     "vscode": "^1.72.0"
   },
   "repository": {
-    "url": "https://github.com/ngupuk/vscode-jaksel-language-support"
+    "url": "https://github.com/Aufaruq/vscode-kalteng-language-support"
   },
   "categories": [
     "Programming Languages"
   ],
   "activationEvents": [
-    "onLanguage:jaksel"
+    "onLanguage:kalteng"
   ],
   "contributes": {
     "languages": [
       {
-        "id": "jaksel",
+        "id": "kalteng",
         "aliases": [
-          "jaksel",
-          "jaksel"
+          "kalteng",
+          "kalteng"
         ],
         "extensions": [
-          ".jaksel"
+          ".kalteng"
         ],
         "configuration": "./language-configuration.json"
       }
     ],
     "snippets": [
       {
-        "language": "jaksel",
-        "path": "./syntaxes/jaksel.snippets.json"
+        "language": "kalteng",
+        "path": "./syntaxes/kalteng.snippets.json"
       }
     ],
     "grammars": [
       {
-        "language": "jaksel",
-        "scopeName": "source.jaksel",
-        "path": "./syntaxes/jaksel.tmLanguage.json"
+        "language": "kalteng",
+        "scopeName": "source.kalteng",
+        "path": "./syntaxes/kalteng.tmLanguage.json"
       }
     ]
   },

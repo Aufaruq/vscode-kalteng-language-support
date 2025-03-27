@@ -1,6 +1,6 @@
-# jaksel-language-support for Visual Studio Code
+# kalteng-language-support for Visual Studio Code
 
-Visual Studio Code extension for supporting [jaksel-language](https://github.com/RioChndr/jaksel-language) coding experience.
+Visual Studio Code extension for supporting [kalteng-language](https://github.com/Aufaruq/kalteng-language) coding experience.
 
 ## Features
 
@@ -10,13 +10,14 @@ Visual Studio Code extension for supporting [jaksel-language](https://github.com
 
 ## Code Snippet
 
-- Loop: `fomo`
-- Decision: `kalo`
-- Function declaration: `so` or `so about`
-- Asynchronous function declaration: `overthinking` or `ovt`
-- Error handling: `trust` or `issue`
+- Loop: `ulihbalik`
+- Decision: `amun`
+- Function declaration: `jadigasan`
+- Asynchronous function declaration: `kepikiran`
+- Error handling: `salahway`
 
 ## Preview
 
-![preview](https://user-images.githubusercontent.com/19171729/196026510-8d945bab-8eb9-4ea7-a9af-1061e7a7d33b.gif)
+![preview](./icon/preview.gif)
+
 

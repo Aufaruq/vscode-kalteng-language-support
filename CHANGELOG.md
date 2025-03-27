@@ -1,6 +1,6 @@
 # Change Log
 
-All notable changes to the "jaksel-language-support" extension will be documented in this file.
+All notable changes to the "kalteng-language-support" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
@@ -11,8 +11,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Syntax Highlight ✅
 - Code Formatter ✅
 - Code Snippet ✅
-  - Loop: `fomo`
-  - Decision: `kalo`
-  - Function declaration: `so` or `so about`
-  - Asynchronous function declaration: `overthinking` or `ovt`
+  - Loop: `ulihbalik`
+  - Decision: `amun`
+  - Function declaration: `so` or `jadigasan`
+  - Asynchronous function declaration: `kepikiran` or `ovt`
   - Error handling: `trust` or `issue`

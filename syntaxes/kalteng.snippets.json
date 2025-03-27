@@ -1,0 +1,62 @@
+{
+  "Loop": {
+    "prefix": [
+      "ulihbalik"
+    ],
+    "body": [
+      "ulihbalik ${1:variable} endup ${2:last}",
+      "\t$0",
+      "udaham"
+    ],
+    "description": "A loop."
+  },
+  "Condition": {
+    "prefix": [
+      "amun"
+    ],
+    "body": [
+      "amun ${1:condition}",
+      "\t$0",
+      "udaham"
+    ],
+    "description": "Decision"
+  },
+  "Function declaration": {
+    "prefix": [
+      "so",
+      "jadigasan"
+    ],
+    "body": [
+      "jadigasan ${1:func}",
+      "\t$0",
+      "sesudaham"
+    ],
+    "description": "Function declaration"
+  },
+  "Async function declaration": {
+    "prefix": [
+      "kepikiran",
+      "ovt"
+    ],
+    "body": [
+      "kepikiran ${1:func}",
+      "\t$0",
+      "sesudaham"
+    ],
+    "description": "Asynchronous function declaration"
+  },
+  "Try Catch": {
+    "prefix": [
+      "trust",
+      "issue"
+    ],
+    "body": [
+      "mencoba dolo",
+      "\t$1",
+      "tikamHalus",
+      "\t$0",
+      "udaham"
+    ],
+    "description": "Error handling"
+  }
+}

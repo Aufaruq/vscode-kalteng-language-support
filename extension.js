@@ -6,13 +6,13 @@ const vscode = require("vscode")
  * @param {vscode.ExtensionContext} context
  */
 function activate(context) {
-  vscode.languages.registerDocumentFormattingEditProvider("jaksel", {
+  vscode.languages.registerDocumentFormattingEditProvider("kalteng", {
     provideDocumentFormattingEdits(document) {
       // Indentation formatter
       const increaseIndentMatch =
-        /(backstab$|kalogak$|yaudahlahya$|trust issue$|fomo|kalo|perhaps|kalogak|overthinking|so about)/
+        /(tikamHalus$|amunsik$|yaudaham$|mencoba dolo$|ulihbalik|amun|munhandak|amunsik|kepikiran|jadigasan)/
       const decreaseIndentMatch =
-        /(backstab$|udahan$|perhaps|kalogak$|yaudahlahya|thats it sih)/
+        /(tikamHalus$|udaham$|munhandak|amunsik$|yaudaham|sesudaham)/
       const cmd = []
       let indent = 0
       for (let i = 0; i < document.lineCount; i++) {

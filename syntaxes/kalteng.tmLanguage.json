@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-  "name": "jaksel",
-  "scopeName": "source.jaksel",
+  "name": "kalteng",
+  "scopeName": "source.kalteng",
   "patterns": [
     {
       "include": "#keywords"
@@ -18,22 +18,26 @@
       "patterns": [
         {
           "name": "keyword.control",
-          "match": "\\b(backstab$|udahan$|kalogak$|yaudahlahya$|trust issue$|fomo|endup|kalo|perhaps|kalogak|toxic)\\b"
+          "match": "\\b(tikamHalus$|udaham$|amunsik$|yaudaham$|mencoba dolo$|ulihbalik|endup|amun|munhandak|amunsik|salahway)\\b"
         },
         {
-          "match": "\\b(overthinking|call|so about) (\\w+)\\b",
+          "match": "\\b(kepikiran|manggilmah|jadigasan) (\\w+)\\b",
           "captures": {
-            "1": { "name": "variable.language" },
-            "2": { "name": "entity.name.function" }
+            "1": {
+              "name": "variable.language"
+            },
+            "2": {
+              "name": "entity.name.function"
+            }
           }
         },
         {
           "name": "variable.language",
-          "match": "\\b(literally|whichis|seriously|overthinking|call|so about|worth it$|positive vibes$|negative vibes$|thats it sih$)\\b"
+          "match": "\\b(amunnya|inilawan|bujuram|kepikiran|manggilmah|jadigasan|worth it$|positive vibes$|negative vibes$|sesudaham$)\\b"
         },
         {
           "name": "entity.name.function",
-          "match": "\\b(spill)\\b"
+          "match": "\\b(tampaikan)\\b"
         },
         {
           "name": "variable.other",
@@ -42,12 +46,12 @@
       ]
     },
     "strings": {
-      "name": "string.quoted.double.jaksel",
+      "name": "string.quoted.double.kalteng",
       "begin": "\"",
       "end": "\"",
       "patterns": [
         {
-          "name": "constant.character.escape.jaksel",
+          "name": "constant.character.escape.kalteng",
           "match": "\\\\."
         }
       ]
